@@ -8,6 +8,7 @@ on a debian system made for use with encrypted persistence.
 Install the live-build package and some essentials.
 
 `sudo apt install -y curl git live-build cdebootstrap`
+
 Clone this repository wherever you may like... 
 \* *Note that the caching done while bootstraping the system may need a considerable amount of disk space*
 
