@@ -6,13 +6,18 @@ on a debian system made for use with encrypted persistence.
 ## Usage
 
 Install the live-build package and some essentials.
+
 `sudo apt install -y curl git live-build cdebootstrap`
 Clone this repository wherever you may like... 
 \* *Note that the caching done while bootstraping the system may need a considerable amount of disk space*
+
 `git clone https://github.com/Naik-NLZ/lab2go.git
 cd lab2go`
+
 ... and build the image.
+
 `sudo lb build --verbose`
+
 The configs are already included.
 
 This may take some time (could definitly be improved!) and may or may not fail at any stage due to changed repositories or singing keys.
