@@ -1,0 +1,5 @@
+### Experimental Lithium Test Repo
+# deb https://kelaino.bunsenlabs.org/~johnraff/debian lithium main
+
+########## Official Lithium Release Repo
+deb [trusted=yes] https://pkg.bunsenlabs.org/debian lithium main

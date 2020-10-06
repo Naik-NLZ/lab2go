@@ -1,0 +1,63 @@
+## Standatrd tasks, dependencies and extra packages
+## for localisation look at the tasks
+####
+## tasks
+task-laptop
+task-german-desktop
+task-desktop
+task-german
+## dependencies
+ca-certificates
+clipit
+compton
+dmz-cursor-theme
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+nitrogen
+openbox
+pnmixer
+python
+python-xdg
+scrot
+sensible-utils
+xbindkeys
+xcape
+yad
+qt5-gtk-platformtheme
+qt5-style-plugins
+qt5ct
+libqt5svg5
+lxmenu-data
+tk
+xfce4-notifyd
+fonts-liberation
+fonts-inconsolata
+light-locker
+gnupg
+seahorse
+focuswriter
+baobab
+most
+printer-driver-all
+hplip
+lsb-release
+inotify-tools
+at
+laptop-detect
+## some more stuff
+terminator
+testdisk 
+ext4magic
+gddrescue
+magicrescue
+gimp
+moc
+netbase
+batmand
+network-manager
+nm-applet
+net-tools
+wireless-tools
+wpagui
+

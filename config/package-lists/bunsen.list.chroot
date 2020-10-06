@@ -1,0 +1,33 @@
+## package list for BunsenLabs packages for depencies look at 
+## my.list.chroot
+
+bunsen-common
+bunsen-configs
+bunsen-configs-pulse
+bunsen-conky
+bunsen-docs
+bunsen-exit
+bunsen-fortune
+bunsen-images
+bunsen-images-archives
+bunsen-keyring
+bunsen-meta-bluetooth
+bunsen-meta-libreoffice
+bunsen-meta-packaging
+bunsen-meta-printer-support
+bunsen-meta-ssh1
+bunsen-meta-vcs
+bunsen-os-release
+bunsen-paper-icon-theme
+bunsen-papirus-icon-theme
+bunsen-pipemenus
+bunsen-python-apt-template
+bunsen-themes
+bunsen-thunar
+bunsen-utilities
+jgmenu
+jgmenu-dbgsym
+jgmenu-xfce4-panel-applet
+paper-icon-theme
+tint2
+tint2-dbgsym
