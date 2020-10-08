@@ -117,7 +117,7 @@ LB_TASKSEL="apt"
 #_VERBOSE="true"
 
 # Internal stuff (FIXME)
-APT_OPTIONS="--yes -oAcquire::Check-Valid-Until=false"
+APT_OPTIONS="--yes -oAcquire::https::Verify-Peer=false"
 APTITUDE_OPTIONS="--assume-yes"
 DEBOOTSTRAP_OPTIONS=""
 DEBOOTSTRAP_SCRIPT=""

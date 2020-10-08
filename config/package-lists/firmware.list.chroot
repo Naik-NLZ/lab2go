@@ -7,5 +7,5 @@
 #if ARCHITECTURES i386 amd64
 firmware-b43legacy-installer
 firmware-b43-installer
-firmware-nonfree
+firmware-linux-nonfree
 #endif

@@ -15,7 +15,7 @@ bunsen-meta-bluetooth
 bunsen-meta-libreoffice
 bunsen-meta-packaging
 bunsen-meta-printer-support
-bunsen-meta-ssh1
+bunsen-meta-ssh
 bunsen-meta-vcs
 bunsen-os-release
 bunsen-paper-icon-theme

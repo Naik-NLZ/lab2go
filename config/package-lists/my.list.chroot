@@ -53,10 +53,11 @@ gddrescue
 magicrescue
 gimp
 moc
+mpd
 netbase
 batmand
 network-manager
-nm-applet
+network-manager-gnome
 net-tools
 wireless-tools
 wpagui
