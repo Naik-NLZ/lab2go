@@ -14,6 +14,7 @@ Clone this repository wherever you may like...
 \* *Note that the caching done while bootstraping the system may need a considerable amount of disk space*
 
 `git clone https://github.com/Naik-NLZ/lab2go.git`
+
 `cd lab2go`
 
 ... and build the image.
