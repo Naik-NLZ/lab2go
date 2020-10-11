@@ -4,6 +4,8 @@ is a live-build config and tree to build a BunsenLab*ish* live image
 on a debian system made for use with encrypted persistence.
 I added some forensik tools (testdisk, magicrescue etc.. ) and the [kali-anonsurf package](https://github.com/Und3rf10w/kali-anonsurf) for surfing under the hood while away from home. 
 
+**CAUTION! THE BUILD IS RIGHT NOW CONFIGURED WITH ** *--apt-options "-o Acquire::https::Verify-Peer=false"* **WHICH WILL PREVENT THE VERIFICATION OF A REPOSITORIES SSL-CERTIFICATE AND IS NOT RECOMMENDED**
+
 ## Usage
 
 Install the live-build package and some essentials.
@@ -44,4 +46,13 @@ All this is put together with the help of
 Thank you all for your time and your effort!
 
 
+## TO DO
 
+For the build process:
+ - extensive testing of the Image and the build process
+ - reorganising the config into the ./auto/common file as seems to be appropriate and easier to manipulate if needed
+ - finding a fix for the error occuring while BUNSENLABS certificate is checked
+For refining the image created:
+ - slim down the image as much as possible
+ - removing duplicate calls of packages to be installed
+ - creating custom (bootloader) theming and images
