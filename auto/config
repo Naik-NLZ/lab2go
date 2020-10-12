@@ -1,0 +1,34 @@
+#!/bin/sh
+
+lb config noauto \
+     --architectures 'amd64' \
+     --binary-image 'iso-hybrid' \
+     --apt-source-archives 'false' \
+     --apt-indices 'false' \
+     --apt-options "--yes -oAcquire::Check-Valid-Until=false"
+     --archive-areas "main contrib non-free" \
+     --debian-installer 'live' \
+     --debian-installer-distribution 'buster' \
+     --debian-installer-gui 'true' \
+     --distribution 'buster' \
+     --mirror-binary 'https://deb.debian.org/debian' \
+     --mirror-binary-security 'https://deb.debian.org/debian-security' \
+     --mirror-bootstrap 'https://deb.debian.org/debian' \
+     --firmware-binary 'true' \
+     --firmware-chroot 'true' \
+     --security 'true' \
+     --bootappend-live "boot=live persistent components hostname=lab2go"
+     --memtest 'memtest86+' \
+     --keyrings 'bunsen-keyring debian-archive-keyring' \
+     --debconf-frontend 'dialog' \
+     --debconf-priority 'high' \
+     --color \
+     --verbose \
+     --image-name 'Lab2go' \
+     --iso-application 'Lab2Go' \
+     --iso-publisher 'naik@nachtlicht.one' \
+     --iso-volume 'Lab2Go-deb' \
+     --system 'live' \
+     --updates 'true' \
+     --win32-loader 'true' \
+     "${@}"
